@@ -20,7 +20,7 @@
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: orange;
+    background-color: #ffa500;
     color: white;
     text-align: center;
 }
