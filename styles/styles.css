@@ -15,6 +15,102 @@
 
 
 /*index.html*/
+/* styles.css */
+
+/* Navigation */
+nav ul {
+    background-color: orange;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-icon img {
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+    background-image: url('banner-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+
+/* Story Thumbnails */
+.story-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.story-thumbnail {
+    flex: 0 0 calc(33.33% - 20px);
+    text-align: center;
+    padding: 20px;
+}
+
+.story-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
 
 
