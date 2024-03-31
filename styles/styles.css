@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 .logo img, .profile-icon img {
-    max-height: 40px;
+    max-height: 20px;
 }
 
 .search-bar input {
@@ -90,7 +90,7 @@ footer {
 }
 
 footer img {
-    max-height: 40px;
+    max-height: 20px;
 }
 
 /*profile.html*/
