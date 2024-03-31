@@ -43,8 +43,12 @@ nav ul li a {
     background-color: orange;
 }
 
-.logo img, .profile-icon img {
+.logo img{
     max-height: 20px;
+}
+
+.profile-icon img {
+    max-height: 40px;
 }
 
 .search-bar input {
