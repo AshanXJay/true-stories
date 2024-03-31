@@ -192,6 +192,12 @@ footer img {
         flex: 0 0 100%;
         margin-bottom: 20px;
     }
+    
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*profile.html*/
