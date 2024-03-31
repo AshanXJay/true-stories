@@ -120,18 +120,18 @@ footer img {
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* Navigation and Footer */
     nav, footer {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 
     nav ul li, footer ul li {
-        display: block;
-        margin: 10px 0;
+        margin: 10px;
     }
 
     /* Header */
     .header {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
     }
 
     .logo img, .profile-icon img {
@@ -140,7 +140,7 @@ footer img {
 
     .search-bar input {
         padding: 10px;
-        width: 100%;
+        width: 80%;
     }
 
     /* Story Thumbnails */
@@ -158,27 +158,29 @@ footer img {
 @media only screen and (max-width: 600px) {
     /* Navigation and Footer */
     nav, footer {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 
     nav ul li, footer ul li {
-        display: block;
-        margin: 10px 0;
+        margin: 10px;
     }
 
     /* Header */
     .header {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
     }
 
     .logo img, .profile-icon img {
-        max-height: 20px;
+        max-height: 25px;
     }
 
     .search-bar input {
+        display: none;
         padding: 10px;
-        width: 100%;
+        width: 25%;
+        margin-left: auto;
     }
 
     /* Story Thumbnails */
