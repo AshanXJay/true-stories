@@ -53,6 +53,7 @@ nav ul li a {
 
 .search-bar input {
     padding: 10px 80px 10px 80px;
+    align-content: center;
     border: 1px solid #ccc;
     border-radius: 30px;
     text-align: center  ;
