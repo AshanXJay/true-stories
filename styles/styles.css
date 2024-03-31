@@ -18,13 +18,16 @@
 /* styles.css */
 
 /* Navigation */
-nav ul {
+/* styles.css */
+
+/* Navigation and Footer */
+nav ul, footer ul {
     background-color: orange;
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
+nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
@@ -44,8 +47,9 @@ nav ul li a {
     background-color: #f8f8f8;
 }
 
-.logo img {
+.logo img, .profile-icon img {
     max-height: 40px;
+    border-radius: 50%;
 }
 
 .search-bar input {
@@ -61,11 +65,6 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.profile-icon img {
-    max-height: 30px;
-    border-radius: 50%;
 }
 
 header {
@@ -101,17 +100,6 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
 
 
 /*profile.html*/
