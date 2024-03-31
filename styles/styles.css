@@ -27,7 +27,6 @@ nav{
 
 nav ul, footer ul {
     background-color: orange;
-    border-top: 1px solid #ccc;
     list-style-type: none;
     padding: 0px;
     
