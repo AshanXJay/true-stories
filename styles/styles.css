@@ -45,7 +45,6 @@ nav ul li a {
 
 .logo img, .profile-icon img {
     max-height: 40px;
-    border-radius: 50%;
 }
 
 .search-bar input {
@@ -55,14 +54,6 @@ nav ul li a {
     text-align: center  ;
 }
 
-.search-bar button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 .hero-image img {
     width: 100%;
@@ -89,12 +80,18 @@ nav ul li a {
 
 /* Footer */
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: orange;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 10px 10px 10px;
 }
 
+footer img {
+    max-height: 40px;
+}
 
 /*profile.html*/
 
