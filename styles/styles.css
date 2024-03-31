@@ -40,7 +40,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: orange;
 }
 
 .logo img, .profile-icon img {
@@ -51,7 +51,8 @@ nav ul li a {
 .search-bar input {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 30px;
+    text-align: center  ;
 }
 
 .search-bar button {
