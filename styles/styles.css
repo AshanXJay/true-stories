@@ -1,16 +1,14 @@
 /* Desktop Styles */
 /*Here's the global styles of our website. Don't Change!!!*/
-body {
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     margin: 0;
     padding: 0;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: "Galada", cursive;
-}
-p,ul,li,a {
     font-family: "Bellota", cursive;
 }
-nav{
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Galada", cursive;
+}
+nav, footer {
     display: flex;
     justify-content: space-around;
     background-color: #ffa500;
@@ -20,15 +18,12 @@ nav{
 nav ul, footer ul {
     background-color: orange;
     list-style-type: none;
-    padding: 0px;
-    
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 0 50px;
 }
-nav ul li a {
+nav ul li a, a {
     color: white;
     text-decoration: none;
 }
@@ -36,7 +31,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0;
     background-color: orange;
 }
 .logo img{
@@ -46,22 +41,16 @@ nav ul li a {
     max-height: 40px;
 }
 .search-bar input {
-    padding: 10px 100px 10px 100px;
+    padding: 10px 100px;
     justify-content: center;
     border: 1px solid #ccc;
     border-radius: 30px;
-    text-align: center  ;
+    text-align: center;
 }
 footer {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: orange;
-    color: white;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
-
 footer img {
     max-height: 20px;
 }
@@ -120,17 +109,6 @@ footer img {
 /* Tablet Styles */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
-    nav, footer {
-        display: flex;
-        flex-direction: row;
-    }
-    nav ul li, footer ul li {
-        margin: 10px;
-    }
-    .header {
-        flex-direction: row;
-        align-items: center;
-    }
     .logo img, .profile-icon img {
         max-height: 30px;
     }
@@ -183,16 +161,8 @@ footer img {
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
-    nav, footer {
-        display: flex;
-        flex-direction: row;
-    }
     nav ul li, footer ul li {
         margin: 10px;
-    }
-    .header {
-        flex-direction: row;
-        align-items: center;
     }
     .logo img, .profile-icon img {
         max-height: 25px;
@@ -204,7 +174,6 @@ footer img {
         margin-left: auto;
     }
     footer{
-        display: flex;
         flex-direction: column;
     }
 /*--------Edit below this line. Happy Coding:-)--------*/
@@ -217,7 +186,7 @@ footer img {
         flex: 0 0 100%;
         margin-bottom: 20px;
     }
-    
+
 /*authors.html*/
 
 
