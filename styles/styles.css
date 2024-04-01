@@ -49,8 +49,9 @@ nav ul li a, a {
     text-align: center;
 }
 footer {
+    justify-content: space-between;
     align-items: center;
-    padding: 30px 0px 30px 0px;
+    padding: 30px;
 }
 footer img {
     max-height: 20px;
@@ -176,6 +177,10 @@ footer img {
     }
     footer{
         flex-direction: column;
+        padding: 20px;
+    }
+    footer img{
+        padding: 10px;
     }
 /*--------Edit below this line. Happy Coding:-)--------*/
 
