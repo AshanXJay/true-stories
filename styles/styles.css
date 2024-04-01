@@ -1,30 +1,17 @@
-/*authors.html*/
-
-
-
-/*collection.html*/
-
-
-
-/*dashboard.html*/
-
-
-
-/*editor.html*/
-
-
-
-/*index.html*/
+/*Here's the global styles of our website. Don't Change!!!*/
+body {
+    margin: 0;
+    padding: 0;
+}
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Galada", cursive;
 }
 
-p,ul,li,a,span {
+p,ul,li,a {
     font-family: "Bellota", cursive;
 }
 
-/* Navigation and Footer */
 nav{
     display: flex;
     justify-content: space-around;
@@ -51,8 +38,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Header */
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -77,31 +62,6 @@ nav ul li a {
     text-align: center  ;
 }
 
-
-.hero-image img {
-    width: 100%;
-    height: auto;
-}
-
-/* Story Thumbnails */
-.story-thumbnails {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
-}
-
-.story-thumbnail {
-    flex: 0 0 calc(33.33% - 20px);
-    text-align: center;
-    padding: 20px;
-}
-
-.story-thumbnail img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -115,6 +75,7 @@ footer {
 footer img {
     max-height: 20px;
 }
+
 
 /* Tablet Styles */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -143,15 +104,6 @@ footer img {
         width: 80%;
     }
 
-    /* Story Thumbnails */
-    .story-thumbnails {
-        flex-direction: column;
-    }
-
-    .story-thumbnail {
-        flex: 0 0 100%;
-        margin-bottom: 20px;
-    }
 }
 
 /* Mobile Styles */
@@ -183,7 +135,38 @@ footer img {
         margin-left: auto;
     }
 
-    /* Story Thumbnails */
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Edit below this line. Happy Coding:-)*/
+
+/*Homepage - index.html*/
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.story-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.story-thumbnail {
+    flex: 0 0 calc(33.33% - 20px);
+    text-align: center;
+    padding: 20px;
+}
+
+.story-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     .story-thumbnails {
         flex-direction: column;
     }
@@ -192,13 +175,34 @@ footer img {
         flex: 0 0 100%;
         margin-bottom: 20px;
     }
-    
+}
 
-    footer{
-        display: flex;
+@media only screen and (max-width: 600px) {
+    .story-thumbnails {
         flex-direction: column;
     }
+
+    .story-thumbnail {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
 }
+
+/*authors.html*/
+
+
+
+/*collection.html*/
+
+
+
+/*dashboard.html*/
+
+
+
+/*editor.html*/
+
+
 
 /*profile.html*/
 
@@ -209,3 +213,5 @@ footer img {
 
 
 /*story.html*/
+
+
