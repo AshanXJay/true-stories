@@ -119,7 +119,7 @@ footer img {
 
 
 /* Tablet Styles */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
     nav ul li, footer ul li {
         margin: 0 32px;
