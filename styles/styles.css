@@ -23,10 +23,10 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline-block;
-    margin: 0 50px;
+    justify-content: space-between;
+    margin: 0 80px;
     transition: text-shadow 0.15s ease-in-out;
 }
-
 nav ul li:hover, footer p a:hover{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
 }
@@ -85,7 +85,7 @@ footer img {
 }
 .story-thumbnail img {
     max-width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 /*authors.html*/
@@ -121,6 +121,9 @@ footer img {
 /* Tablet Styles */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
+    nav ul li, footer ul li {
+        margin: 0 32px;
+    }
     .logo img, .profile-icon img {
         max-height: 30px;
     }
@@ -131,12 +134,15 @@ footer img {
 /*---------Edit below this line. Happy Coding:-)--------*/
 
 /*Homepage - index.html*/
-.story-thumbnails {
-        flex-direction: column;
+    .story-thumbnails {
+        flex-direction: row;
     }
     .story-thumbnail {
-        flex: 0 0 100%;
-        margin-bottom: 20px;
+        flex: 0 0 50%;
+    }
+    .story-thumbnail img {
+        width: 100%;
+        height: 200px;
     }
 
 /*authors.html*/
@@ -174,7 +180,7 @@ footer img {
 @media only screen and (max-width: 600px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
     nav ul li, footer ul li {
-        margin: 10px;
+        margin: 0 5px;
     }
     .logo img, .profile-icon img {
         max-height: 25px;
@@ -200,9 +206,11 @@ footer img {
     }
     .story-thumbnail {
         flex: 0 0 100%;
-        margin-bottom: 20px;
     }
-
+    .story-thumbnail img {
+        width: 100%;
+        height: auto;
+    }
 /*authors.html*/
 
 
