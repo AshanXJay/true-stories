@@ -75,11 +75,13 @@ footer img {
 }
 .story-thumbnails {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px auto;
 }
 .story-thumbnail {
-    flex: 0 0 calc(33.33% - 20px);
+    flex: 0 0 calc(100% / 3);
+    box-sizing: border-box;    
     text-align: center;
     padding: 20px;
 }
@@ -209,7 +211,7 @@ footer img {
     }
     .story-thumbnail img {
         width: 100%;
-        height: auto;
+        height: 200px;
     }
 /*authors.html*/
 
