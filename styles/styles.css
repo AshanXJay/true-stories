@@ -24,10 +24,11 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline-block;
     margin: 0 50px;
+    transition: text-shadow 0.15s ease-in-out;
 }
 
-nav :hover {
-    color: #ff0000;
+nav ul li:hover, footer p a:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
 }
 nav ul li a, a {
     color: white;
@@ -45,6 +46,11 @@ nav ul li a, a {
 }
 .profile-icon img {
     max-height: 40px;
+    border-radius: 100%;
+    transition: box-shadow 0.15s ease-in-out;
+}
+.profile-icon img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .search-bar input {
     padding: 10px 100px;
