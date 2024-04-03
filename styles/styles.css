@@ -182,7 +182,7 @@ footer img {
 @media only screen and (max-width: 600px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
     nav ul li, footer ul li {
-        margin: 0 0px;
+        margin: 0 5px;
     }
     .logo img, .profile-icon img {
         max-height: 25px;
