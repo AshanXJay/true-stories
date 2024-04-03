@@ -22,8 +22,12 @@ nav ul, footer ul {
     list-style-type: none;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 50px;
+}
+
+nav :hover {
+    color: #ff0000;
 }
 nav ul li a, a {
     color: white;
@@ -218,7 +222,4 @@ footer img {
 
 
 /*story.html*/
-
-
-
 
