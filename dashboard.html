@@ -1,216 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="styles/dash_styles.css">
-    <link rel="icon" type="image/png" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles/www.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada|Bellota">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-    
-    <title>True stories- Dashboard</title>
-  </head>
-  <body id="body">
-    <div class="container">
-      <nav class="navbar">
-        
-        <div class="navbar__left">
-          <a class="active_link" href="#">Dashboard</a>
-          <a href="#">Settings</a>
-          <a href="#">Send feedback</a>
+    <title>True Stories - Share your story</title>
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="True Stories Logo">
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Search across your channel">
+            <input type="text" placeholder="Search...">
         </div>
-            <button><b>PUBLISH</b></button>
-        
-        
-        <div class="navbar__right">  
+        <div class="profile-icon">
+            <img src="images/dohwa.webp" alt="Profile Icon">
         </div>
-      </nav>
-
-      <main>
-        <div class="main__container">
-          <!-- MAIN TITLE STARTS HERE -->
-
-          <div class="main__title">
-            <img src="assets/hello.svg" alt="" />
-            <div class="main__greeting">
-              <h1>Profile Dashboard</h1>
-              <p>Last login: 09:33:28 - Saturday, 28th March, 2024</p>
-            </div>
-          </div>
-
-          <!-- MAIN TITLE ENDS HERE -->
-
-          <!-- MAIN CARDS STARTS HERE -->
-          <div class="main__cards">
-            <div class="card">
-              <i
-                class="fa fa-user-o fa-2x text-lightblue"
-                aria-hidden="true"
-              ></i>
-              
-              <div class="card_inner">
-                <p class="text-primary-p">Number of Followers</p>
-                <span class="font-bold text-title">&nbsp;703</span>
-              </div>
-            </div>
-
-            <div class="card">
-              <i class="fa fa-book fa-2x text-lightblue" aria-hidden="true"></i>
-              <div class="card_inner">
-                <p class="text-primary-p">Number of Works</p>
-                <span class="font-bold text-title">04</span>
-              </div>
-            </div>
-
-            <div class="card">
-              <i
-                class="fa fa-video-camera fa-2x text-lightblue"
-                aria-hidden="true"
-              ></i>
-              <div class="card_inner">
-                <p class="text-primary-p">Number of Total Views</p>
-                <span class="font-bold text-title">9811</span>
-              </div>
-            </div>
-
-            <div class="card">
-              <i
-                class="fa fa-comment fa-2x text-green"
-                aria-hidden="true"
-              ></i>
-              <div class="card_inner">
-                <p class="text-primary-p">Number of Comments</p>
-                <span class="font-bold text-title">471</span>
-              </div>
-            </div>
-          </div>
-          <!-- MAIN CARDS ENDS HERE -->
-
-          <!-- CHARTS STARTS HERE -->
-          <div class="charts">
-            <div class="charts__left">
-              <div class="charts__left__title">
-                <div>
-                  <h1>Weekly Analytics</h1>
-                    <div class="charts__chart">
-                        <div class="bar" style="height: 80%; background-color: #ffa500; color: #39463eb7;"> </div>
-                        <div class="bar" style="height: 40%; background-color: #554b39; color: #39463eb7; margin-right: 20px;"></div>
-                        <div class="bar" style="height: 70%; background-color: #ffa500; color: #39463eb7;"></div>
-                        <div class="bar" style="height: 30%; background-color: #554b39; color: #39463eb7; margin-right: 20px;"></div>
-                        <div class="bar" style="height: 90%; background-color: #ffa500; color: #39463eb7;"></div>
-                        <div class="bar" style="height: 45%; background-color: #554b39; color: #39463eb7; margin-right: 20px;"></div>
-                        <div class="bar" style="height: 65%; background-color: #ffa500; color: #39463eb7;"></div>
-                        <div class="bar" style="height: 15%; background-color: #554b39; color: #39463eb7; margin-right: 20px;"></div>
-                        <div class="bar" style="height: 84%; background-color: #ffa500; color: #39463eb7;"></div>
-                        <div class="bar" style="height: 32%; background-color: #554b39; color: #39463eb7; margin-right: 20px;"></div>
-                        <div class="bar" style="height: 69%; background-color: #ffa500; color: #39463eb7;"></div>
-                        <div class="bar" style="height: 18%; background-color: #554b39; color: #39463eb7; margin-right: 20px;"></div>
-                        <div class="bar" style="height: 84%; background-color: #ffa500; color: #39463eb7;"></div>
-                        <div class="bar" style="height: 42%; background-color: #554b39; color: #39463eb7;"></div>
-                </div>
-                <a class="active_link" href="#" style="  margin-right: 30px; text-decoration: none; color:#0000ff; font-size: 15px; font-weight: 700;">VIEW MORE</a>
-              </div>
-             </div>
-             <div id="apex1"></div>
-            </div>
-
-            <div class="charts__right">
-              <div class="charts__right__title">
-                <div>
-                  <h1>Your Works</h1>
-                  <span><a style="text-decoration:none; color:crimson;" href="#">Select<i class="fa fa-arrow-turn-up"></i></a></span>
-                </div>
-            </div>
-
-              <div class="charts__right__cards">
-                <div class="card1">
-                  <h1>Story 01</h1>
-                  <p>951 views<br>34 comments</p>
-                </div>
-
-                <div class="card2">
-                  <h1>Story 02</h1>
-                  <p>1798 views<br>89 comments</p></p>
-                </div>
-
-                <div class="card3">
-                  <h1>Story 03</h1>
-                  <p>5013 views<br>247 comments</p></p>
-                </div>
-
-                <div class="card4">
-                  <h1>Story 04</h1>
-                  <p>2049 views<br>101 comments</p></p>
-                </div>
-              </div>
-              <br>
-              <br>
-              <br>
-              <a class="active_link" href="#" style="  margin-right: 30px; text-decoration: none; color:#0000ff; font-size: 15px; font-weight: 700;">VIEW MORE</a>
-
-            </div>
-          </div>
-          <!-- CHARTS ENDS HERE -->
-        </div>
-        
-      </main>
-
-      <div id="sidebar">
-        <div class="sidebar__title">
-            <h2>TRUE STORIES</h2>
-        </div>
-        <div class="sidebar__menu">
-            <hr style="display: flex; border-top: 1px solid #000000; margin-top: -10px;">
-            <br>
-            <img src="images/dohwa.webp" alt="profile picture" style="width: 200px; height: 200px; border-radius: 100%; margin: 0 auto; text-align: center; display:flex;"> 
-            <div class="sidebar__profile">
-            <br>
-            <p><b>Your Profile</b></p>
-            </div>
-            <div class="sidebar__profile_name">
-            <p>Stephanie L. Garber</p>
-            <br>
-            </div>
-            <div class="sidebar_link">
-            <i class="fa fa-th-large"></i>
-            <a href="#">Dashboard</a>
-          </div>
-          <div class="sidebar_link">
-            <i class="fa fa-calendar"></i>
-
-            <a href="#">Events</a>
-          </div>
-          <div class="sidebar_link">
-            <i class="fa fa-bar-chart"></i>
-            <a href="#">Analytics</a>
-          </div>
-          <div class="sidebar_link">
-            <i class="fa fa-copyright"></i>
-            <a href="#">Copyright</a>
-          </div>
-          <div class="sidebar_link">
-            <i class="fa fa-dollar"></i>
-            <a href="#">Earn</a>
-          </div>
-          <div class="sidebar_link">
-            <i class="fa fa-envelope-o"></i>
-            <a href="#">Contact</a>
-          </div>
-          <div class="sidebar_link">
-            <i class="fa fa-question-circle"></i>
-            <a href="#">About</a>
-          </div>
-          <div class="sidebar__logout">
-            <i class="fa fa-power-off"></i>
-            <a href="#">Log out</a>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+</head>
+<body id="ds_body">
+    <div class="ds_container">
+        <main>
+            <div class="ds_main_container">
+                <div class="ds_main_title">
+                    <div class="ds_main_htitle</div>">
+                        <h1>Profile Dashboard</h1>
+                        <p>Last login: 09:33:28 - Saturday, 28th March, 2024</p>
+                    </div>
+                </div>
+                <div class="ds_main_cards">
+                    <div class="ds_card">
+                        <i class="fa fa-user-o fa-2x text-lightblue" aria-hidden="true"></i>
+                        <div class="ds_card_inner">
+                            <p class="text-primary-p">Number of Followers</p>
+                            <span class="font-bold text-title">&nbsp;703</span>
+                        </div>
+                    </div>
+
+                    <div class="ds_card">
+                        <i class="fa fa-book fa-2x text-lightblue" aria-hidden="true"></i>
+                        <div class="ds_card_inner">
+                            <p class="text-primary-p">Number of Works</p>
+                            <span class="font-bold text-title">04</span>
+                        </div>
+                    </div>
+
+                    <div class="ds_card">
+                        <i class="fa fa-eye fa-2x text-lightblue" aria-hidden="true"></i>
+                        <div class="ds_card_inner">
+                            <p class="text-primary-p">Number of Total Views</p>
+                            <span class="font-bold text-title">9811</span>
+                        </div>
+                    </div>
+
+                    <div class="ds_card">
+                        <i class="fa fa-comment fa-2x text-green" aria-hidden="true"></i>
+                        <div class="ds_card_inner">
+                            <p class="text-primary-p">Number of Comments</p>
+                            <span class="font-bold text-title">471</span>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="ds_charts">
+                    <div class="ds_charts_left">
+                        <div class="ds_charts_left_title">
+                            <div>
+                                <h1>Weekly Analytics</h1>
+                                    <div class="ds_charts_chart">
+                                        <div class="bar" style="height: 80%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 40%; background-color: #554b39; margin-right: 20px;"></div>
+                                        <div class="bar" style="height: 70%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 30%; background-color: #554b39; margin-right: 20px;"></div>
+                                        <div class="bar" style="height: 90%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 45%; background-color: #554b39; margin-right: 20px;"></div>
+                                        <div class="bar" style="height: 65%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 15%; background-color: #554b39; margin-right: 20px;"></div>
+                                        <div class="bar" style="height: 84%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 32%; background-color: #554b39; margin-right: 20px;"></div>
+                                        <div class="bar" style="height: 69%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 18%; background-color: #554b39; margin-right: 20px;"></div>
+                                        <div class="bar" style="height: 84%; background-color: #ffa500;"></div>
+                                        <div class="bar" style="height: 42%; background-color: #554b39;"></div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                     <div class="ds_charts_right">
+                        <div class="ds_charts_right_title">
+                            <div>
+                                <h1>Your Works</h1>
+                            </div>
+                        </div>
+                        <div class="ds_charts_right_cards">
+                            <div class="ds_card1"><h1>Story 01</h1><p>951 views<br>34 comments</p></div>
+                            <div class="ds_card2"><h1>Story 02</h1><p>1798 views<br>89 comments</p></div>
+                            <div class="ds_card3"><h1>Story 03</h1><p>5013 views<br>247 comments</p></div>
+                            <div class="ds_card4"><h1>Story 04</h1><p>2049 views<br>101 comments</p></div>
+                        </div>
+                     </div>
+                    
+                </div>
+            </div>
+        </main>
+
+        <div id="ds_sidebar">
+            <div class="ds_sidebar_menu">
+                <br>
+                <img src="images/dohwa.webp" alt="profile picture" style="width: 200px; height: 200px; border-radius: 100%; margin: 0 auto; text-align: center; display:flex;"> 
+                <div class="ds_sidebar_profile">
+                <br><p><b>Your Profile</b></p>
+                </div>
+                <div class="ds_sidebar_profile_name">
+                    <p>Stephanie L. Garber</p><br>
+                </div>
+                
+                <div class="ds_sidebar_logout">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-power-off"></i><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log out</a></div>
+            </div>
+        </div>
+    </div>
+      
+    <footer>
+        <p>© 2024 True Stories</p>
+        <img src="images/logo.png" alt="True Stories Logo">
+        <section>   
+            <p>
+                <a href="#">Become a Writer</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">My Account</a>
+            </p>
+        </section>
+    </footer>
+</body>
 </html>
