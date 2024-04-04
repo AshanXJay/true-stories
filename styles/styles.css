@@ -1,3 +1,95 @@
+/* Desktop Styles */
+/*Here's the global styles of our website. Don't Change!!!*/
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: "Bellota", cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Galada", cursive;
+}
+nav, footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffa500;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+nav ul, footer ul {
+    background-color: orange;
+    list-style-type: none;
+}
+nav ul li, footer ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 80px;
+    transition: text-shadow 0.15s ease-in-out;
+}
+nav ul li:hover, footer p a:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+nav ul li a, a {
+    color: white;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+    background-color: orange;
+}
+.logo img{
+    max-height: 20px;
+}
+.profile-icon img {
+    max-height: 40px;
+    border-radius: 100%;
+    transition: box-shadow 0.15s ease-in-out;
+}
+.profile-icon img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.search-bar input {
+    padding: 10px 100px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+}
+footer {
+    justify-content: space-between;
+    padding: 30px;
+}
+footer img {
+    max-height: 20px;
+}
+/*--------Edit below this line. Happy Coding:-)--------*/
+
+/*Homepage - index.html*/
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+.story-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.story-thumbnail {
+    flex: 0 0 calc(100% / 3);
+    box-sizing: border-box;    
+    text-align: center;
+    padding: 20px;
+}
+.story-thumbnail img {
+    max-width: 100%;
+    height: 200px;
+}
+
 /*authors.html*/
 
 
@@ -14,99 +106,62 @@
 
 
 
-/*index.html*/
-
-/* Navigation and Footer */
-nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: orange;
-    color: white;
-    text-align: center;
-}
-
-nav ul, footer ul {
-    background-color: orange;
-    list-style-type: none;
-    padding: 0px;
-    
-}
-
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Header */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px 0px 20px;
-    background-color: orange;
-}
-
-.logo img{
-    max-height: 20px;
-}
-
-.profile-icon img {
-    max-height: 40px;
-}
-
-.search-bar input {
-    padding: 10px 100px 10px 100px;
-    justify-content: center;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    text-align: center  ;
-}
+/*profile.html*/
 
 
-.hero-image img {
-    width: 100%;
-    height: auto;
-}
 
-/* Story Thumbnails */
-.story-thumbnails {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
-}
+/*signup.html*/
 
-.story-thumbnail {
-    flex: 0 0 calc(33.33% - 20px);
-    text-align: center;
-    padding: 20px;
-}
 
-.story-thumbnail img {
-    max-width: 100%;
-    height: auto;
-}
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: orange;
-    color: white;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-}
+/*story.html*/
 
-footer img {
-    max-height: 20px;
-}
+
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+/*Here's the global styles of our website. Don't Change!!!*/    
+    nav ul li, footer ul li {
+        margin: 0 32px;
+    }
+    .logo img, .profile-icon img {
+        max-height: 30px;
+    }
+    .search-bar input {
+        padding: 10px;
+        width: 80%;
+    }
+/*---------Edit below this line. Happy Coding:-)--------*/
+
+/*Homepage - index.html*/
+    .story-thumbnails {
+        flex-direction: row;
+    }
+    .story-thumbnail {
+        flex: 0 0 50%;
+    }
+    .story-thumbnail img {
+        width: 100%;
+        height: 200px;
+    }
+
+/*authors.html*/
+
+
+
+/*collection.html*/
+
+
+
+/*dashboard.html*/
+
+
+
+/*editor.html*/
+
+
 
 /*profile.html*/
 
@@ -117,3 +172,73 @@ footer img {
 
 
 /*story.html*/
+
+
+
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+/*Here's the global styles of our website. Don't Change!!!*/    
+    nav ul li, footer ul li {
+        margin: 0 5px;
+    }
+    .logo img, .profile-icon img {
+        max-height: 25px;
+    }
+    .search-bar input {
+        display: none;
+        padding: 10px;
+        width: 25%;
+        margin-left: auto;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    footer img{
+        padding: 10px;
+    }
+/*--------Edit below this line. Happy Coding:-)--------*/
+
+/*Homepage - index.html*/
+.story-thumbnails {
+        flex-direction: column;
+    }
+    .story-thumbnail {
+        flex: 0 0 100%;
+    }
+    .story-thumbnail img {
+        width: 100%;
+        height: 200px;
+    }
+/*authors.html*/
+
+
+
+/*collection.html*/
+
+
+
+/*dashboard.html*/
+
+
+
+/*editor.html*/
+
+
+
+/*profile.html*/
+
+
+
+/*signup.html*/
+
+
+
+/*story.html*/
+
+
+
+}
