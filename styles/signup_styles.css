@@ -86,6 +86,10 @@
   color: white;
 }
 
+.rightSide button:hover{
+  background-color: blue;
+}
+
 .line{
   display: flex;
   align-items: center;
