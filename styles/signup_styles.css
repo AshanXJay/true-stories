@@ -1,4 +1,4 @@
-.background
+.sign_background
 {
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@
 
 .rightSide{
   width: 50%;
-  background-image: url('yellow_bkg.jpg');
+  background-image: url('../images/yellow_bkg.jpg');
   background-size: cover;
   background-position: right;
 }
