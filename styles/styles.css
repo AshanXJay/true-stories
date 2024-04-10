@@ -121,13 +121,12 @@ footer img {
     "sidebar main main main"
     "sidebar main main main";
 }
-
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+    background-color: orange;
 }
 
 .logo img {
@@ -145,7 +144,7 @@ footer img {
   text-align: center;
 }
 
-main {
+ds_main {
   background: #f3f4f6;
   grid-area: main;
   overflow-y: auto;
@@ -245,7 +244,7 @@ main {
   background-color: #ffffff;
 }
 
-.bar {
+.ds_bar {
   width: 50px;
 }
 
@@ -291,32 +290,6 @@ main {
 .ds_sidebar_title > div > h1 {
   font-size: 18px;
   display: inline;
-}
-
-.ds_sidebar_link {
-  justify-content: space-around;
-  color: #2e2c28;
-  padding: 10px;
-  border-radius: 3px;
-  margin-bottom: 5px;
-}
-
-.ds_sidebar_link > a {
-  text-decoration: none;
-  color: #2e2c28;
-  font-weight: 700;
-  text-align: center;
-}
-
-.ds_sidebar_link > a:hover {
-  text-decoration: none;
-  font-weight: 700;
-  color: #2e2c28;
-}
-
-.ds_sidebar_link > i {
-  margin-right: 10px;
-  font-size: 18px;
 }
 
 .ds_sidebar_logout {
@@ -408,6 +381,26 @@ footer img {
 
 /*dashboard.html*/
 
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+    .ds_container {
+      grid-template-columns:  0.5fr 1fr;
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+      "sidebar main main"
+      "sidebar main main";
+    }
+    .ds_main_cards {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+    .ds_charts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+  
+  }
+  
 
 
 /*editor.html*/
