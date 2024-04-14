@@ -320,7 +320,47 @@ footer img {
 }
 
 /*editor.html*/
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+}		
 
+
+.header{
+	
+	background-color: #ffba00;
+	padding: 14px 16px;
+	text-align: center;
+	height:20%;
+	Font:Bellota;
+}
+
+
+.text-input{
+	width: 100% ;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size:16px;
+	height:45%;
+}
+
+
+.add_media{
+    
+	background-color:#ffc04d;
+	border: ipx dashed #ccc;
+	padding: 40px;
+    width: 100%;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
 
 
 /*profile.html*/
