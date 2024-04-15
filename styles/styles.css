@@ -69,38 +69,6 @@ footer {
 footer img {
     max-height: 20px;
 }
-/*--------Edit below this line. Happy Coding:-)--------*/
-
-/*Homepage - index.html*/
-.hero-image img {
-    width: 100%;
-    height: auto;
-}
-.story-thumbnails {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px auto;
-}
-.story-thumbnail {
-    flex: 0 0 calc(100% / 3);
-    box-sizing: border-box;    
-    text-align: center;
-    padding: 20px;
-}
-.story-thumbnail img {
-    max-width: 100%;
-    height: 200px;
-}
-
-/*authors.html*/
-
-
-
-/*collection.html*/
-
-
-
 /*dashboard.html*/
 ::-webkit-scrollbar {
   width: 5px;
@@ -318,15 +286,6 @@ footer {
 footer img {
   max-height: 20px;
 }
-
-/*editor.html*/
-
-
-
-/*profile.html*/
-
-
-
 /*signup.html*/
 .sign_background{
   display: flex;
@@ -413,7 +372,7 @@ footer img {
   width: 75%;
   height: 50px;
   border: none;
-  color: : #ffa500;
+  color: #ffa500;
 }
 
  button:hover {
@@ -466,12 +425,6 @@ footer img {
 
 
 
-/*story.html*/
-
-
-
-
-
 /* Tablet Styles */
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
 /*Here's the global styles of our website. Don't Change!!!*/    
@@ -485,28 +438,6 @@ footer img {
         padding: 10px;
         width: 80%;
     }
-/*---------Edit below this line. Happy Coding:-)--------*/
-
-/*Homepage - index.html*/
-    .story-thumbnails {
-        flex-direction: row;
-    }
-    .story-thumbnail {
-        flex: 0 0 50%;
-    }
-    .story-thumbnail img {
-        width: 100%;
-        height: 200px;
-    }
-
-/*authors.html*/
-
-
-
-/*collection.html*/
-
-
-
 /*dashboard.html*/
     .ds_container {
       grid-template-columns:  0.5fr 1fr;
@@ -524,24 +455,7 @@ footer img {
       grid-template-columns: 1fr;
       margin-top: 30px;
     }
-  
-/*editor.html*/
-
-
-
-/*profile.html*/
-
-
-
-/*signup.html*/
-
-
-
-/*story.html*/
-
-
-
-}
+  }
 
 
 /* Mobile Styles */
@@ -566,45 +480,4 @@ footer img {
     footer img{
         padding: 10px;
     }
-/*--------Edit below this line. Happy Coding:-)--------*/
-
-/*Homepage - index.html*/
-.story-thumbnails {
-        flex-direction: column;
-    }
-    .story-thumbnail {
-        flex: 0 0 100%;
-    }
-    .story-thumbnail img {
-        width: 100%;
-        height: 200px;
-    }
-/*authors.html*/
-
-
-
-/*collection.html*/
-
-
-
-/*dashboard.html*/
-
-
-
-/*editor.html*/
-
-
-
-/*profile.html*/
-
-
-
-/*signup.html*/
-
-
-
-/*story.html*/
-
-
-
 }
