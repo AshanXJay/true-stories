@@ -1,4 +1,4 @@
- .sign_background{
+.sign_background{
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -83,7 +83,7 @@
   width: 75%;
   height: 50px;
   border: none;
-  color: : #ffa500;
+  color: #ffa500;
 }
 
  button:hover {
@@ -133,3 +133,4 @@
 .sign_color {
 	color: white;
 }	
+
