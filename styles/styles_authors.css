@@ -1,0 +1,52 @@
+.centered-text {
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 24px; 
+    text-color: #800000;
+}
+
+.container {
+    max-width:50px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.author {
+    width: 500px;
+    height: 350px;
+            
+    width: calc(10% - 1px -5px); 
+    padding:5px;
+    background-color: #fff; 
+    border: 2px solid gray; 
+}
+
+.left-author {
+    order: 1;
+}
+.right-author {
+    order: 2; 
+}
+.author h2 {
+    margin-top: 10px;
+    
+}
+
+.author p {
+    margin-top: 5px;
+    color: #555; 
+}
+
+.author img {
+    max-width: 20%;
+    height: auto;
+}
