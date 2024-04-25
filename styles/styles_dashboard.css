@@ -25,10 +25,6 @@
   max-height: 20px;
 }
 
-.profile-icon img {
-  max-height: 40px;
-}
-
 .search-bar input {
   padding: 10px 100px;
   border: 1px solid #ccc;
