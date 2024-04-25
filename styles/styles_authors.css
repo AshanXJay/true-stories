@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 500px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -19,25 +19,29 @@
 }
 
 .author {
-    width: calc(50% - 40px);
+    width: calc(50% - 20px);
     margin-bottom: 20px; 
-    padding: 10px;
+    padding: 20px;
     background-color: #fff; 
     border: 2px solid gray; 
+    box-sizing: border-box;
 }
-
+.author img {
+    max-width: 100%; 
+    height: auto;
+}    
 .author h2 {
     margin-top: 10px;
-    font-size: 18px; 
+    font-size: 20px; 
 
 .author p {
     margin-top: 5px;
     color: #555; 
+    font-size:16px;
 }
-
-.author img {
-    max-width: 100%; 
-    height: auto;
+ul{
+    margin-top:10px;
+    padding-left:20px;
 }
 
 
