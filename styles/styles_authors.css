@@ -17,7 +17,15 @@
     align-items: flex-start; 
     flex-wrap: wrap;
 }
-
+.logo img{
+    max-hight:20px;
+}
+.search-bar input{
+    padding:10px 100px;
+    border:1px solid #ccc;
+    border-radius:30px;
+    text-align:center;
+}
 .author {
     width: calc(50% - 20px);
     margin-bottom: 20px; 
