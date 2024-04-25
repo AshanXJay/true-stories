@@ -17,6 +17,14 @@
     align-items: flex-start; 
     flex-wrap: wrap;
 }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: orange;
+}
+
 .logo img{
     max-hight:20px;
 }
