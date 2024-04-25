@@ -18,7 +18,7 @@ nav, footer {
     background-color: #ffa500;
     color: white;
     text-align: center;
-    padding: 18px;
+    padding: 0 20px 20px;
 }
 nav ul, footer ul {
     background-color: orange;
@@ -41,7 +41,7 @@ nav ul li a, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0;
+    padding: 20px;
     background-color: orange;
 }
 .logo img{
