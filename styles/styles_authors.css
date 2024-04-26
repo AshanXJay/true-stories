@@ -11,8 +11,9 @@
     padding: 20px;
     background-color: orange;
 }
-
-
+.navbar {
+    background-color:orange;
+        }
 .container {
     max-width: 800px;
     margin: 20px auto;
