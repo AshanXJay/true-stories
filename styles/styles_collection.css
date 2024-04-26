@@ -1,0 +1,122 @@
+body {
+  background-color: #ffa500;
+  font-family: "Bellota", cursive;
+  font-size:16px;
+  margin: 0;
+  padding: 0;
+}
+ h1, h2, h3, h4, h5, h6 {
+    font-family: "Galada", cursive;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffa500;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+nav ul, footer ul {
+    background-color: orange;
+    list-style-type: none;
+}
+nav ul li, footer ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 80px;
+    transition: text-shadow 0.15s ease-in-out;
+}
+nav ul li:hover, footer p a:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+nav ul li a, a {
+    color: white;
+    text-decoration: none;
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+    background-color: orange;
+}
+
+.logo img{
+    max-height: 20px;
+}
+.profile-icon img {
+    max-height: 40px;
+    border-radius: 100%;
+    transition: box-shadow 0.15s ease-in-out;
+}
+.profile-icon img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.search-bar input {
+    padding: 10px 100px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+}
+footer {
+    justify-content: space-between;
+    padding: 30px;
+}
+footer img {
+    max-height: 20px;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Galada', cursive;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.story {
+  width: 48%;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.story h3 {
+  margin-top: 0;
+}
+
+.read-btn {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.story-content {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.show-content {
+  display: block;
+}
