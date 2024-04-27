@@ -113,3 +113,14 @@ footer img {
 	justify-content:space-between;
 	
 }
+.post_button{
+   width: 100%;
+   background-color:#ff7b00 ;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 4px;
+   cursor: pointer;
+   
+}
+
+
