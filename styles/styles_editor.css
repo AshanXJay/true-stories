@@ -5,7 +5,40 @@
 	box-sizing: border-box;
 	
 	
-}		
+}
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+    background-color: orange;
+}
+
+.logo img{
+    max-height: 20px;
+}
+.profile-icon img {
+    max-height: 40px;
+    border-radius: 100%;
+    transition: box-shadow 0.15s ease-in-out;
+}
+.profile-icon img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.search-bar input {
+    padding: 10px 100px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+}
+footer {
+    justify-content: space-between;
+    padding: 30px;
+}
+footer img {
+    max-height: 20px;
+}
 
 
 .wrapper_first{
