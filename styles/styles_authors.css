@@ -21,10 +21,12 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     box-sizing: border-box;
     border-radius: 30px;
+    background-color: #fbfbfb;
 }
 .author img {
     max-width: 100%; 
     height: auto;
+    border-radius: 30px;
 }    
 .author h2 {
     margin-top: 10px;

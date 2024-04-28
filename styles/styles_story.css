@@ -4,11 +4,12 @@
         padding: 20px;
         background-color:#f5f5f5 ;
 }
-.sentence{;
-          }
+
+
 .navigation {
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
 }
+
 .ul {
   list-style-type: none;
   margin: 200;
@@ -25,19 +26,15 @@
 
 .li a {
   display: block;
-  
   text-align: center;
   padding: 30px 60px;
   text-decoration: none;
 }
 
 .centered-text {
-    text-align: center; 
-    
-
-    
+  text-align: center;
 }
- 
+
 .ul {
   float: right;
 }
@@ -46,34 +43,44 @@
   display: block;
   text-align: center;
   padding: 0;
-  text-decoration: none;
 }
-.firsthr{
+
+.firsthr {
   border: 2px solid black;
 }
-.intro{padding:10;
-       text-align:justify;
-	   
-	display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 60px;
-        background-color: #f5f5f5;}
 
-.author img{max-height:70px;
+.intro {
+  padding: 10;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #f5f5f5;
 }
-.facebook img{max-height:20px;
-              }
-.instergram img{max-height:20px;
-	       }
-.image1 img{max-height:30px;
+
+.author img {
+  max-height: 70px;
 }
-.information of author:{
-                          display: flex;
-                          justify-content: space-between;
-                          align-items: center;
-                          padding: 30px;
-                          backgound-color:#f5f5f5;
+
+.facebook img {
+  max-height: 20px;
+}
+
+.instagram img {
+  max-height: 20px;
+}
+
+.image1 img {
+  max-height: 30px;
+}
+
+.information-of-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f5f5f5;
 }
 .articleimage1 img{max-height:30px;}
 
@@ -124,26 +131,3 @@
              padding: 50px;
          
 }
-.footer{background-color:#f5f5f5;
-	display:flex;
-	justify-content:space-between;
-	padding:30px;
-       }
-
-
-
-
-
-
-                       
-					   
-		 
-		 
-
-
-
-
-
-	   
-
-
