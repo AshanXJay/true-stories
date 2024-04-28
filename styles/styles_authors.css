@@ -4,46 +4,23 @@
     font-size: 24px; 
     color: #800000; 
 }
- .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: orange;
-}
-.navbar {
-    background-color:orange;
-        }
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px; 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
     flex-wrap: wrap;
 }
-   
-
-.logo img{
-    max-hight:20px;
-}
-.search-bar input{
-    padding:10px 100px;
-    border:1px solid #ccc;
-    border-radius:30px;
-    text-align:center;
-}
 .author {
     width: calc(50% - 20px);
     margin-bottom: 20px; 
     padding: 20px;
-    background-color: #fff; 
-    border: 2px solid gray; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     box-sizing: border-box;
+    border-radius: 30px;
 }
 .author img {
     max-width: 100%; 
@@ -52,6 +29,7 @@
 .author h2 {
     margin-top: 10px;
     font-size: 20px; 
+}
 
 .author p {
     margin-top: 5px;
