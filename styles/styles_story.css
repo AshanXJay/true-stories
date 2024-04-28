@@ -15,7 +15,6 @@
   margin: 200;
   padding: 400;
   overflow: hidden;
-  
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
