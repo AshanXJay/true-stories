@@ -19,6 +19,7 @@
   position: sticky;
   top: 0;
 }
+.para2{padding:20px;}
 
 .li {
   float: left;
@@ -60,7 +61,7 @@
 }
 
 .author img {
-  max-height: 70px;
+  max-height: 100px;
 }
 
 .facebook img {
