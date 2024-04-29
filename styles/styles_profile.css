@@ -9,7 +9,32 @@
 	
 	border-radius:5px;
 }
-	
+
+.date{
+  display:flex;
+  justify-content:center;
+  color:grey;
+  font-weight: bold;
+}
+
+.create-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.create-button{
+  background-color: #ffa726;
+  border: none;
+  
+  border-radius: 5px;
+  color: #2e2c28;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
 h3{
 	text-align:center;
 }
