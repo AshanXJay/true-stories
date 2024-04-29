@@ -63,8 +63,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 5px;
+ 
 }
 
 .image1 img {
